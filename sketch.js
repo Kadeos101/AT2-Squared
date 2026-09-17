@@ -5,12 +5,21 @@ function setup() {
 function draw() {
   background(220);
   let button = createButton('subjects');
-  button.position(0, 100);
+  button.position(100, 100, 100);
+  button.size(100, 50);
   button.mousePressed(subjects);
+  let button2 = createButton('other');
+  button2.position(200, 100);
+  button2.size(100, 50);
+  button2.mousePressed(other);
 }
 
 function subjects(){
   console.log ("poop");
+}
+
+function other(){
+  console.log ("goop");
 }
 
 //im gooned out
@@ -18,3 +27,4 @@ function subjects(){
 //verity phonk
 //yorick
 //windows logo
+//maverick
