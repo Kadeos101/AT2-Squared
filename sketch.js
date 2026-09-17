@@ -4,9 +4,17 @@ function setup() {
 
 function draw() {
   background(220);
-  rect(10,10,50);
+  let button = createButton('subjects');
+  button.position(0, 100);
+  button.mousePressed(subjects);
+}
+
+function subjects(){
+  console.log ("poop");
 }
 
 //im gooned out
 // /j
 //verity phonk
+//yorick
+//windows logo
