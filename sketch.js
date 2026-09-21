@@ -1,9 +1,5 @@
 function setup() {
   createCanvas(1000, 1000);
-}
-
-function draw() {
-  background(220);
   let button = createButton('subjects');
   button.position(100, 100, 100);
   button.size(100, 50);
@@ -25,19 +21,26 @@ function draw() {
   button4.mousePressed(quiz);
 }
 
+function draw() {
+  background(220);
+}
+
 function subjects(){
   console.log ("subjects");
 }
 
 function other(){
-  console.log ("quiz");
+  console.log ("other");
 }
 function setquestions(){
   console.log ("set questions");
 }
 
 function quiz(){
-  console.log ("other");
+
+
+
+  console.log ("quiz");
 }
 
 //im gooned out
