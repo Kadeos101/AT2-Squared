@@ -26,6 +26,7 @@ function draw() {
 }
 
 function subjects(){
+  window.open()
   console.log ("subjects");
 }
 
