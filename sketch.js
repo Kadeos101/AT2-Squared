@@ -26,7 +26,7 @@ function draw() {
 }
 
 function subjects(){
-  window.open()
+  window.location.href = "subjects.html";
   console.log ("subjects");
 }
 
@@ -41,9 +41,5 @@ function quiz(){
   console.log ("other");
 }
 
-//im gooned out
-// /j
-//verity phonk
-//yorick
-//windows logo
+
 //maverick
