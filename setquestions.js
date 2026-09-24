@@ -1,29 +1,30 @@
 function setup() {
   createCanvas(1000, 1000);
-    let buttonback = createButton('Back To Main Menu');
-  button.position(0, 0);
-  button.size(100, 50);
-  button.mousePressed(backToMain);
+
+    let buttonBack = createButton('Back To Main Menu');
+  buttonBack.position(0, 0);
+  buttonBack.size(100, 50);
+  buttonBack.mousePressed(backToMain);
 
     let buttonEnglish = createButton('English');
-  button.position(100, 100);
-  button.size(100, 50);
-  button.mousePressed();
+  buttonEnglish.position(100, 50);
+  buttonEnglish.size(100, 50);
+  buttonEnglish.mousePressed();
 
     let buttonMaths = createButton('Maths');
-  button.position(200, 100);
-  button.size(100, 50);
-  button.mousePressed();
+  buttonMaths.position(200, 50);
+  buttonMaths.size(100, 50);
+  buttonMaths.mousePressed();
 
     let buttonScience = createButton('Science');
-  button.position(100, 100);
-  button.size(100, 50);
-  button.mousePressed();
+  buttonScience.position(100, 100);
+  buttonScience.size(100, 50);
+  buttonScience.mousePressed();
 
     let buttonHistory = createButton('History');
-  button.position(200, 200);
-  button.size(100, 50);
-  button.mousePressed();
+  buttonHistory.position(200, 100);
+  buttonHistory.size(100, 50);
+  buttonHistory.mousePressed();
   
 }
 
@@ -35,6 +36,11 @@ function backToMain(){
   window.location.href = "index.html";
   console.log ("returning");
 }
+
+
+
+
+
 
 
 
