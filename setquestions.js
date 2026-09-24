@@ -1,10 +1,11 @@
 function setup() {
   createCanvas(1000, 1000);
 
-    let buttonBack = createButton('Back To Main Menu');
-  buttonBack.position(0, 0);
-  buttonBack.size(100, 50);
-  buttonBack.mousePressed(backToMain);
+let buttonBack = createButton('Back To Main Menu'); 
+buttonBack.position(0, 0); 
+buttonBack.size(100, 50); 
+buttonBack.mousePressed(backToMain); 
+buttonBack.style('font-size', '100px');
 
     let buttonEnglish = createButton('English');
   buttonEnglish.position(100, 50);
